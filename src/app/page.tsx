@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-red-600 font-U-medium text-9xl">
-      Page d'accueil
+      Page daccueil
     </main>
   );
 }
