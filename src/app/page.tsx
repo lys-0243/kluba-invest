@@ -1,21 +1,16 @@
-import Image from "next/image";
-import Link from "next/link";
-import { MenuLinks, SocialsNetworks } from "./components/constants";
 import HeroSection from "./components/home/HeroSection";
+import KlubaTime from "./components/home/KlubaTime";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 export default function Home() {
   return (
-    <main>
-      <HeroSection/>
-      
+    // <ParallaxProvider>
+      <main>
+        <HeroSection />
 
-      <section>
-        autre section <br />
-        autre section <br />
-        autre section <br />
-        autre section <br />
-      </section>
-    </main>
+        <KlubaTime />
+      </main>
+    // </ParallaxProvider>
   );
 }
 

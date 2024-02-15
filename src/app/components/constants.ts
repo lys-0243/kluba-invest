@@ -38,3 +38,12 @@ export const MenuLinks = [
       icon:"/img/socials/LinkedIn.png"
     },
   ];
+
+
+export default function screenW() {
+      const screeWidth = typeof window !== "undefined" ? window.innerWidth : 0;
+    return (
+      screeWidth
+    )
+  }
+  
