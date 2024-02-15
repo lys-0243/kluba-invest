@@ -1,5 +1,7 @@
 import type { Config } from "tailwindcss";
 
+
+
 const config: Config = {
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -21,10 +23,11 @@ const config: Config = {
       grayLight: "#f6f6f6",
     },
     fontFamily: {
-      "U-bold":       ["Ubuntu-Bold", "sans-serif"],
-      "U-medium":     ["Ubuntu-Medium", "sans-serif"],
-      "U-regular":    ["Ubuntu-Regular", "sans-serif"],
-      "U-light":      ["Ubuntu-Light", "sans-serif"],
+      "PExtra":      ["PlusJakartaSans-ExtraBold", "sans-serif"],
+      "PBold":       ["PlusJakartaSans-Bold", "sans-serif"],
+      "PMedium":     ["PlusJakartaSans-Medium", "sans-serif"],
+      "PRegular":    ["PlusJakartaSans-Regular", "sans-serif"],
+      "PLight":      ["PlusJakartaSans-Light", "sans-serif"],
     },
     extend: {
       spacing: {

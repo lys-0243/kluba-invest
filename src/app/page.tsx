@@ -1,9 +1,17 @@
-import Image from "next/image";
+import HeroSection from "./components/home/HeroSection";
+import KlubaTime from "./components/home/KlubaTime";
+import { ParallaxProvider } from "react-scroll-parallax";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-red-600 font-U-medium text-9xl">
-      Page daccueil
-    </main>
+    // <ParallaxProvider>
+      <main>
+        <HeroSection />
+
+        <KlubaTime />
+      </main>
+    // </ParallaxProvider>
   );
 }
+
+// mx-auto 2xl:max-w-screen-xl xl:max-w-screen-xl
