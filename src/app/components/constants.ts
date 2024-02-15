@@ -40,31 +40,26 @@ export const SocialsNetworks = [
     },
   ];
 
-export const AboutItems = [
+export const InvestItems = [
     {
-      title: "Développer son réseau professionnel et son chiffre d'affaires",
-      id: "#",
-      icon:"/img/socials/IG.png"
+      title: "Acheter votre bot de trading automatique",
+      gbImage:"/img/home/invest1.png"
     },
     {
-      title: "Faire connaître son activité",
-      id: "#",
-      icon:"/img/socials/Twitter.png"
+      title: "Rejoignez la chaîne de fast-food KWI",
+      gbImage:"/img/home/invest2.png"
     },
     {
-      title: "Être recommandé par ses membres",
-      id: "#",
-      icon:"/img/socials/Youtube.png"
+      title: "Une vidéo corporate offerte à 150$",
+      gbImage:"/img/home/invest3.png"
     },
     {
-      title: "Échanger des opportunités d'affaires qualifiées",
-      id: "#",
-      icon:"/img/socials/LinkedIn.png"
+      title: "Acheter vos Token Pay",
+      gbImage:"/img/home/invest4.png"
     },
     {
-      title: "Capitaliser sur le retour d’expérience des membres du club",
-      id: "#",
-      icon:"/img/socials/LinkedIn.png"
+      title: "Vous cherchez à lever des fonds",
+      gbImage:"/img/home/invest5.png"
     },
   ];
 
@@ -75,4 +70,34 @@ export default function screenW() {
       screeWidth
     )
   }
-  
+
+export const PartnairsItems = [
+    {
+      text: "Amazon",
+      logo: "/img/partnairs/amazon.png",
+    },
+    {
+      text: "facebook",
+      logo: "/img/partnairs/facebook.png",
+    },
+    {
+      text: "vodacom",
+      logo: "/img/partnairs/vodacom.png",
+    },
+    {
+      text: "rawbank",
+      logo: "/img/partnairs/rawbank.png",
+    },
+    {
+      text: "internews",
+      logo: "/img/partnairs/internews.png",
+    },
+    {
+      text: "rawbank",
+      logo: "/img/partnairs/rawbank.png",
+    },
+    {
+      text: "internews",
+      logo: "/img/partnairs/internews.png",
+    },
+  ];

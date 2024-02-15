@@ -30,3 +30,8 @@
 }
 
 
+.grayImg {
+  filter: gray;
+  -webkit-filter: grayscale(1); 
+  filter: grayscale(1);
+}
