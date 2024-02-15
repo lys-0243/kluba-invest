@@ -4,23 +4,23 @@
 
 @font-face {
   font-family: "PlusJakartaSans-ExtraBold";
-  src: url("../../public/fonts/PlusJakartaSans-Bold.ttf");
+  src: url("../../public/fonts/PlusJakartaSans-ExtraBold.ttf");
 }
 @font-face {
   font-family: "PlusJakartaSans-Bold";
-  src: url("../../public/fonts/PlusJakartaSans-Bold.ttf");
+  src: url("../../public/fonts/Ubuntu-Bold.ttf");
 }
 @font-face {
   font-family: "PlusJakartaSans-Medium";
-  src: url("../../public/fonts/PlusJakartaSans-Medium.ttf");
+  src: url("../../public/fonts/Ubuntu-Medium.ttf");
 }
 @font-face {
   font-family: "PlusJakartaSans-Regular";
-  src: url("../../public/fonts/PlusJakartaSans-Regular.ttf");
+  src: url("../../public/fonts/Ubuntu-Regular.ttf");
 }
 @font-face {
   font-family: "PlusJakartaSans-Light";
-  src: url("../../public/fonts/PlusJakartaSans-Light.ttf");
+  src: url("../../public/fonts/Ubuntu-Light.ttf");
 }
 
 :root {
@@ -28,7 +28,5 @@
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
 }
-
-
 
 

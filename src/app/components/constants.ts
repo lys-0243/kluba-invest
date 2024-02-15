@@ -16,7 +16,8 @@ export const MenuLinks = [
     },
   ];
 
- export const SocialsNetworks = [
+
+export const SocialsNetworks = [
     {
       name: "Instagram",
       href: "#",
@@ -35,6 +36,34 @@ export const MenuLinks = [
     {
       name: "LinkedIn",
       href: "#",
+      icon:"/img/socials/LinkedIn.png"
+    },
+  ];
+
+export const AboutItems = [
+    {
+      title: "Développer son réseau professionnel et son chiffre d'affaires",
+      id: "#",
+      icon:"/img/socials/IG.png"
+    },
+    {
+      title: "Faire connaître son activité",
+      id: "#",
+      icon:"/img/socials/Twitter.png"
+    },
+    {
+      title: "Être recommandé par ses membres",
+      id: "#",
+      icon:"/img/socials/Youtube.png"
+    },
+    {
+      title: "Échanger des opportunités d'affaires qualifiées",
+      id: "#",
+      icon:"/img/socials/LinkedIn.png"
+    },
+    {
+      title: "Capitaliser sur le retour d’expérience des membres du club",
+      id: "#",
       icon:"/img/socials/LinkedIn.png"
     },
   ];
