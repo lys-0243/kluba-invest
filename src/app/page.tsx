@@ -1,17 +1,55 @@
+import About from "./components/home/About";
 import HeroSection from "./components/home/HeroSection";
+import InvestDetails from "./components/home/InvestDetails";
 import KlubaTime from "./components/home/KlubaTime";
-import { ParallaxProvider } from "react-scroll-parallax";
+import Partnairs from "./components/minimals/Partnairs";
 
 export default function Home() {
   return (
-    // <ParallaxProvider>
-      <main>
-        <HeroSection />
+    <main>
+      <HeroSection />
+      <KlubaTime />
+      <About />
+      <InvestDetails/>
 
-        <KlubaTime />
-      </main>
-    // </ParallaxProvider>
+      <Partnairs/>
+
+      <p>
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+        zzzz <br />
+      </p>
+    </main>
   );
 }
-
-// mx-auto 2xl:max-w-screen-xl xl:max-w-screen-xl

@@ -2,45 +2,13 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { MenuLinks, SocialsNetworks } from "../constants";
+import MenuItems from "../minimals/menu";
 
 export default function HeroSection() {
   return (
     <section className="bg-[url('/img/home/bg-home.png')] bg-cover min-h-screen p-2 relative">
       <div className="mx-auto 2xl:max-w-screen-xl xl:max-w-screen-xl">
-        <nav className=" flex justify-between items-center ">
-          <div>
-            <Link href="/">
-              <Image
-                src="/img/logos/kaapital-logo-blanc.png"
-                alt="Logo Kluba"
-                width={110}
-                height={100}
-              />
-            </Link>
-          </div>
-
-          <div className=" text-text  space-x-8 text-base ">
-            {MenuLinks.map((item) => (
-              <Link
-                href={item.href}
-                key={item.name}
-                className="uppercase font-PExtra text-lg text-bleu  hover:border-b-2 border-orange"
-              >
-                {item.name}
-              </Link>
-            ))}
-          </div>
-
-          <div className=" text-white bg-orange px-6 py-3 rounded-2xl flex justify-center items-center">
-            <Link
-              href="#"
-              className=" uppercase font-PMedium tracking-wider text-sm"
-            >
-              S&apos;inscrire
-            </Link>
-          </div>
-        </nav>
-
+        <MenuItems />
         <div className="flex items-center ">
           <div className=" w-1/2 text-bleu flex flex-col gap-10 pt-[8%]">
             <h1 className=" font-PExtra text-4xl">

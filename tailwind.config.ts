@@ -14,12 +14,10 @@ const config: Config = {
       primary: "#c71a0c",
       bleu: "#152c45",
       bleulight: "#1f354e",
-      green: "#23d00c",
-      yellow: "#e3b600",
       text: "#2b2b2b",
       orange: "#e45c16",
       white: "#fff",
-      grayHard: "#dcdcdc",
+      grayHard: "#D9D9D9",
       grayLight: "#f6f6f6",
     },
     fontFamily: {

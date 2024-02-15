@@ -16,7 +16,8 @@ export const MenuLinks = [
     },
   ];
 
- export const SocialsNetworks = [
+
+export const SocialsNetworks = [
     {
       name: "Instagram",
       href: "#",
@@ -39,6 +40,29 @@ export const MenuLinks = [
     },
   ];
 
+export const InvestItems = [
+    {
+      title: "Acheter votre bot de trading automatique",
+      gbImage:"/img/home/invest1.png"
+    },
+    {
+      title: "Rejoignez la chaîne de fast-food KWI",
+      gbImage:"/img/home/invest2.png"
+    },
+    {
+      title: "Une vidéo corporate offerte à 150$",
+      gbImage:"/img/home/invest3.png"
+    },
+    {
+      title: "Acheter vos Token Pay",
+      gbImage:"/img/home/invest4.png"
+    },
+    {
+      title: "Vous cherchez à lever des fonds",
+      gbImage:"/img/home/invest5.png"
+    },
+  ];
+
 
 export default function screenW() {
       const screeWidth = typeof window !== "undefined" ? window.innerWidth : 0;
@@ -46,4 +70,34 @@ export default function screenW() {
       screeWidth
     )
   }
-  
+
+export const PartnairsItems = [
+    {
+      text: "Amazon",
+      logo: "/img/partnairs/amazon.png",
+    },
+    {
+      text: "facebook",
+      logo: "/img/partnairs/facebook.png",
+    },
+    {
+      text: "vodacom",
+      logo: "/img/partnairs/vodacom.png",
+    },
+    {
+      text: "rawbank",
+      logo: "/img/partnairs/rawbank.png",
+    },
+    {
+      text: "internews",
+      logo: "/img/partnairs/internews.png",
+    },
+    {
+      text: "rawbank",
+      logo: "/img/partnairs/rawbank.png",
+    },
+    {
+      text: "internews",
+      logo: "/img/partnairs/internews.png",
+    },
+  ];
