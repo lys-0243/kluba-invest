@@ -13,8 +13,8 @@ export default function InvestDetails() {
           </h2>
           <p className=" text-bleu text-sm  font-PRegular">
             Bienvenue au club dédié à la croissance des entrepreneurs et à
-            l'éducation financière. Nous sommes là pour vous aider à prendre des
-            décisions éclairées en matière d'argent et à développer vos
+            l&apos;éducation financière. Nous sommes là pour vous aider à prendre des
+            décisions éclairées en matière d&apos;argent et à développer vos
             affaires.
           </p>
         </div>

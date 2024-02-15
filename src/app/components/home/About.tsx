@@ -30,7 +30,7 @@ export default function About() {
               01
             </p>
             <p className=" font-PMedium text-xl">
-              Développer son réseau professionnel et son chiffre d'affaires
+              Développer son réseau professionnel et son chiffre d&apos;affaires
             </p>
           </div>
         </div>
@@ -72,7 +72,7 @@ export default function About() {
               04
             </p>
             <p className=" font-PMedium text-xl">
-              Échanger des opportunités d'affaires qualifiées
+              Échanger des opportunités d&apos;affaires qualifiées
             </p>
           </div>
         </div>
