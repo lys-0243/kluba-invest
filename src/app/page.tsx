@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="bg-orange ">
-      <section className="bg-[url('/img/home/bg-home.png')] bg-cover min-h-screen">
+      <section className="bg-[url('/img/home/bg-home.png')] bg-cover min-h-screen p-2">
         <nav className="mx-auto 2xl:max-w-screen-xl xl:max-w-screen-xl flex justify-between items-center">
           <div>
             <Link href="/">
