@@ -13,15 +13,15 @@ export default function InvestDetails() {
           </h2>
           <p className=" text-bleu text-sm  font-PRegular">
             Bienvenue au club dédié à la croissance des entrepreneurs et à
-            l&apos;éducation financière. Nous sommes là pour vous aider à prendre des
-            décisions éclairées en matière d&apos;argent et à développer vos
-            affaires.
+            l&apos;éducation financière. Nous sommes là pour vous aider à
+            prendre des décisions éclairées en matière d&apos;argent et à
+            développer vos affaires.
           </p>
         </div>
 
-        <div className="bg-[url('/img/home/invest1.png')] rounded-xl flex relative p-6 h-48">
+        <div className="bg-[url('/img/home/invest1.png')] rounded-xl flex relative p-6 h-56 w-full">
           <div className="flex absolute bottom-4 justify-between">
-            <h3 className=" text-white font-PBold w-1/2 drop-shadow-lg">
+            <h3 className=" text-white font-PBold w-1/2 custom-drop-shadow">
               Acheter votre bot de trading automatique
             </h3>
             <Link
@@ -33,9 +33,9 @@ export default function InvestDetails() {
           </div>
         </div>
 
-        <div className="bg-[url('/img/home/invest2.png')] rounded-xl flex relative p-6 h-48">
+        <div className="bg-[url('/img/home/invest2.png')] rounded-xl flex relative p-6 h-56">
           <div className="flex absolute bottom-4 justify-between">
-            <h3 className=" text-white font-PBold w-1/2 drop-shadow-lg">
+            <h3 className=" text-white font-PBold w-1/2 custom-drop-shadow">
               Rejoignez la chaîne de fast-food KWI
             </h3>
             <Link
@@ -47,9 +47,9 @@ export default function InvestDetails() {
           </div>
         </div>
 
-        <div className="bg-[url('/img/home/invest3.png')] rounded-xl flex relative p-6 h-48">
+        <div className="bg-[url('/img/home/invest3.png')] rounded-xl flex relative p-6 h-56">
           <div className="flex absolute bottom-4 justify-between">
-            <h3 className=" text-white font-PBold w-1/2 drop-shadow-lg">
+            <h3 className=" text-white font-PBold w-1/2 custom-drop-shadow">
               Une vidéo corporate offerte à 150$
             </h3>
             <Link
@@ -61,9 +61,9 @@ export default function InvestDetails() {
           </div>
         </div>
 
-        <div className="bg-[url('/img/home/invest4.png')] rounded-xl flex relative p-6 h-48">
+        <div className="bg-[url('/img/home/invest4.png')] rounded-xl flex relative p-6 h-56">
           <div className="flex absolute bottom-4 justify-between">
-            <h3 className=" text-white font-PBold w-1/2 drop-shadow-lg">
+            <h3 className=" text-white font-PBold w-1/2 custom-drop-shadow">
               Acheter vos Token Pay
             </h3>
             <Link
@@ -75,9 +75,9 @@ export default function InvestDetails() {
           </div>
         </div>
 
-        <div className="bg-[url('/img/home/invest5.png')] rounded-xl flex relative p-6 h-48">
+        <div className="bg-[url('/img/home/invest5.png')] rounded-xl flex relative p-6 h-56">
           <div className="flex absolute bottom-4 justify-between">
-            <h3 className=" text-white font-PBold w-1/2 drop-shadow-lg">
+            <h3 className=" text-white font-PBold w-1/2 custom-drop-shadow">
               Vous cherchez à lever des fonds
             </h3>
             <Link

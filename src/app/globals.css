@@ -35,3 +35,18 @@
   -webkit-filter: grayscale(1); 
   filter: grayscale(1);
 }
+
+.custom-drop-shadow {
+  --tw-drop-shadow: drop-shadow(0 3px 3px rgb(0 0 0 / 0.5));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
+.before-footer{
+  position: absolute;
+  left: calc(50% - -5px);
+  top: -15rem ;
+  width: 1300px;
+  border-radius: 10px;
+  background-color: #e45c16;
+  transform: translateX(-50%);
+}

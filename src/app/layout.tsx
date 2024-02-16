@@ -1,12 +1,16 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Head from "next/head";
+import Footer from "./components/minimals/Footer";
 
 export const metadata: Metadata = {
   title: "Kluba - Investir, devenir grand",
-  description: "Trouvez des opportunités d’investissement et les meilleurs conseils pour entreprendre ou accroître votre business.",
+  description:
+    "Trouvez des opportunités d’investissement et les meilleurs conseils pour entreprendre ou accroître votre business.",
   applicationName: "Kluba",
-  icons: "/favicon.png",
+  icons: {
+    icon: "/img//logos/favicon.png",
+  },
 };
 
 export default function RootLayout({
@@ -15,9 +19,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-
-      <html lang="en">
-        <body className={""}>{children}</body>
-      </html>
+    <html lang="en">
+      <body className={""}>
+        {children}
+        <Footer />
+      </body>
+    </html>
   );
 }

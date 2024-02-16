@@ -35,7 +35,7 @@ export default function HeroSection() {
         <div className="flex gap-3 flex-col bg-[#DCF598] bg-opacity-10 p-5 rounded-tl-2xl rounded-bl-2xl">
           {SocialsNetworks.map((item) => (
             <Link href={item.href} key={item.name}>
-              <Image src={item.icon} alt={item.name} width={40} height={40} />
+              <Image src={item.icon} alt={item.name} width={40} height={40} className=" hover:border-3 border-orange rounded-full transition duration-200 ease-in" />
             </Link>
           ))}
         </div>

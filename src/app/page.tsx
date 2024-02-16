@@ -14,42 +14,7 @@ export default function Home() {
 
       <Partnairs/>
 
-      <p>
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-        zzzz <br />
-      </p>
+      
     </main>
   );
 }
