@@ -10,7 +10,7 @@ export default function HeroSection() {
       <div className="mx-auto 2xl:max-w-screen-xl xl:max-w-screen-xl">
         <MenuItems />
         <div className="flex items-center ">
-          <div className=" w-1/2 text-bleu flex flex-col gap-10 pt-[8%]">
+          <div className=" w-1/2 text-bleu flex flex-col gap-10 pt-[12%]">
             <h1 className=" font-PExtra text-4xl">
               Trouvez des opportunités d’investissement et les meilleurs
               conseils pour entreprendre ou accroître votre business.

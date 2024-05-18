@@ -101,3 +101,25 @@ export const PartnairsItems = [
       logo: "/img/partnairs/internews.png",
     },
   ];
+
+export const TestimoniesElement = [
+    {
+      text: "« Notre club réunit des dirigeants passionnés qui souhaitent échanger autour des thématiques du numérique (mais pas que) et générer des leads qualifiés. Depuis notre création, nous travaillons aussi sur la cohésion du groupe en partageant sur les expériences de chacun et en organisant des activités hors du groupe (rendez-vous croisés, visites d’entreprise, ateliers…) »",
+      imgSrc: "/img/kt.jpg",
+      name: "Kristen Tshika",
+      company: "KTC"
+    },
+    {
+      text: "« Notre club réunit des dirigeants passionnés qui souhaitent échanger autour des thématiques du numérique (mais pas que) et générer des leads qualifiés. Depuis notre création, nous travaillons aussi sur la cohésion du groupe en partageant sur les expériences de chacun et en organisant des activités hors du groupe (rendez-vous croisés, visites d’entreprise, ateliers…) »",
+      imgSrc: "/img/kristen.jpg",
+      name: "Sylvain Lys",
+      company: "LycGroup"
+    },
+    {
+      text: "« Notre club réunit des dirigeants passionnés qui souhaitent échanger autour des thématiques du numérique (mais pas que) et générer des leads qualifiés. Depuis notre création, nous travaillons aussi sur la cohésion du groupe en partageant sur les expériences de chacun et en organisant des activités hors du groupe (rendez-vous croisés, visites d’entreprise, ateliers…) »",
+      imgSrc: "/img/blog.png",
+      name: "Beaudrick K.",
+      company: "CEO Djodici"
+    },
+    
+  ];
